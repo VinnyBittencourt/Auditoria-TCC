@@ -14835,3 +14835,10 @@ File: scss
 .btn-cor{
   background: #46b8ab !important;
 }
+
+.footer-magic{
+  font-size: 8px;
+  right:0;
+  bottom: 0;
+  
+}
