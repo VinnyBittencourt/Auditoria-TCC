@@ -14842,3 +14842,138 @@ File: scss
   bottom: 0;
   
 }
+
+.cont-row{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.box-form1{
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+}
+
+.box-form2{
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:not(:checked), header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:checked {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+  header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:not(:checked) + span, header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:checked + span {
+      position: relative;
+      padding-left: 35px;
+      cursor: pointer;
+      display: inline-block;
+      height: 25px;
+      line-height: 25px;
+      -webkit-transition: 0.28s ease;
+      transition: 0.28s ease;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      font-family: "Roboto", sans-serif;
+      font-size: 1.6rem;
+      color: #737373;
+  }
+
+.radio-brabo + span:before, header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"] + span:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 4px;
+  width: 16px;
+  height: 16px;
+  z-index: 0;
+  -webkit-transition: 0.28s ease;
+  transition: 0.28s ease;
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:not(:checked) + span:before, header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:not(:checked) + span:after {
+  border-radius: 50%;
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:checked + span:before, header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:checked + span:after {
+  border-radius: 50%;
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].marcador:checked + span:before, header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].marcador:checked + span:after {
+  border-radius: 50%;
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:not(:checked) + span:before {
+  border: 2px solid #DDDDDD;
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:not(:checked) + span:after {
+  border: 2px solid #DDDDDD;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:checked + span:before {
+  border: 2px solid transparent;
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:checked + span:after {
+  border: 2px solid #D93347;
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].marcador:checked + span:before, header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].marcador:checked + span:after {
+  border: 2px solid #D93347;
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:checked + span:after, header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].marcador:checked + span:after {
+  background-color: #D93347;
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:checked + span:after {
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].marcador:checked + span:after {
+  -webkit-transform: scale(0.4);
+  transform: scale(0.4);
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].tabbed:focus + span:before {
+  -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].marcador:disabled:checked + span:before {
+  border: 2px solid rgba(0, 0, 0, 0.42);
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].marcador:disabled:checked + span:after {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.42);
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:disabled:not(:checked) + span:before, header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:disabled:checked + span:before {
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.42);
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:disabled + span {
+  color: rgba(0, 0, 0, 0.42);
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:disabled:not(:checked) + span:before {
+  border-color: rgba(0, 0, 0, 0.42);
+}
+
+header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:disabled:checked + span:after {
+  background-color: rgba(0, 0, 0, 0.42);
+  border-color: #949494;
+}

@@ -145,7 +145,7 @@
                             </div>
                             <!-- End User Profile-->
                         </li>
-                        <li class="p-15 m-t-10"><a href="create.html" class="btn btn-block create-btn text-white no-block d-flex align-items-center btn-cor"><i class="far fa-edit"></i> <span class="hide-menu m-l-5">Nova Auditoria</span> </a></li>
+                        <li class="p-15 m-t-10"><a href="javascript:void(0)" class="btn btn-block create-btn text-white no-block d-flex align-items-center btn-cor"><i class="far fa-edit"></i> <span class="hide-menu m-l-5">Nova Auditoria</span> </a></li>
                         <!-- User Profile-->
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="index.html" aria-expanded="false"><i class="fa fa-bars" aria-hidden="true"></i><span class="hide-menu">Menu</span></a></li>
                         <!-- <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pages-profile.html" aria-expanded="false"><i class="mdi mdi-account-network"></i><span class="hide-menu">Profile</span></a></li>
@@ -176,7 +176,7 @@
             <div class="page-breadcrumb">
                 <div class="row align-items-center">
                     <div class="col-5">
-                        <h4 class="page-title">Menu</h4>
+                        <h4 class="page-title">Nova Auditoria</h4>
                         <div class="d-flex align-items-center">
                             <!-- <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
@@ -210,127 +210,66 @@
                 <!-- ============================================================== -->
                 <!-- Table -->
                 <!-- ============================================================== -->
-                <div class="row">
-                    <!-- column -->
-                    <div class="col-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <!-- title -->
-                                <div class="d-md-flex align-items-center">
-                                    <div>
-                                        <h4 class="card-title">Auditorias</h4>
-                                        <h5 class="card-subtitle">Menu das auditorias realizadas</h5>
+                <div class="col-lg-8 col-xlg-9 col-md-7">
+                    <div class="card">
+                        <div class="card-body">
+                            <form class="form-horizontal form-material">
+                                <div class="form-group">
+                                    <label class="col-md-12">Razão Social</label>
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="Razão Social Da Empresa" class="form-control form-control-line">
                                     </div>
-                                    <div class="ml-auto">
-                                        <div class="dl">
-                                            <select class="custom-select">
-                                                <option value="0" selected>Categorias</option>
-                                                <option value="1">Parecer favorável</option>
-                                                <option value="2">Parecer desfavorável</option>
-                                                <option value="3">Parecer com ressalva</option>
-                                            </select>
+                                </div>
+                                <div class="cont-row">
+                                    <div class="form-group box-form1">
+                                        <label for="" class="col-md-12">CNPJ</label>
+                                        <div class="col-md-12">
+                                            <input type="text" placeholder="CNPJ" class="form-control form-control-line" name="example-email" id="example-email">
+                                        </div>
+                                    </div>
+                                    <div class="form-group box-form2">
+                                        <label class="col-md-12">Data</label>
+                                        <div class="col-md-12">
+                                            <input type="date" value="password" class="form-control form-control-line">
                                         </div>
                                     </div>
                                 </div>
-                                <!-- title -->
-                            </div>
-                            <div class="table-responsive">
-                                <table class="table v-middle">
-                                    <thead>
-                                        <tr class="bg-light">
-                                            <th class="border-top-0">Razão Social</th>
-                                            <th class="border-top-0">CPNPJ</th>
-                                            <th class="border-top-0">Data</th>
-                                            <th class="border-top-0">Categoria</th>
-                                            <th class="border-top-0"></th>
-                                            <th class="border-top-0"></th>
-                                            <th class="border-top-0"></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex align-items-center">
-                                                    <div class="m-r-10"><a class="btn btn-circle btn-info text-white">VD</a></div>
-                                                    <div class="">
-                                                        <h4 class="m-b-0 font-16">VR Devs</h4>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>39.078.517/0001-39</td>
-                                            <td>22/10/2019</td>
-                                            <td>
-                                                <label class="label label-danger">Parecer desfavorável</label>
-                                            </td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>
-                                                <h5 class="m-b-0"></h5>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex align-items-center">
-                                                    <div class="m-r-10"><a class="btn btn-circle btn-orange text-white">MA</a></div>
-                                                    <div class="">
-                                                        <h4 class="m-b-0 font-16">Monster Admin</h4>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>Single Use</td>
-                                            <td>Venessa Fern</td>
-                                            <td>
-                                                <label class="label label-info">Vue Js</label>
-                                            </td>
-                                            <td>46</td>
-                                            <td>356</td>
-                                            <td>
-                                                <h5 class="m-b-0">$2850.06</h5>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex align-items-center">
-                                                    <div class="m-r-10"><a class="btn btn-circle btn-success text-white">MP</a></div>
-                                                    <div class="">
-                                                        <h4 class="m-b-0 font-16">Material Pro Admin</h4>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>Single Use</td>
-                                            <td>John Doe</td>
-                                            <td>
-                                                <label class="label label-success">Bootstrap</label>
-                                            </td>
-                                            <td>46</td>
-                                            <td>356</td>
-                                            <td>
-                                                <h5 class="m-b-0">$2850.06</h5>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex align-items-center">
-                                                    <div class="m-r-10"><a class="btn btn-circle btn-purple text-white">AA</a></div>
-                                                    <div class="">
-                                                        <h4 class="m-b-0 font-16">Ample Admin</h4>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>Single Use</td>
-                                            <td>John Doe</td>
-                                            <td>
-                                                <label class="label label-purple">React</label>
-                                            </td>
-                                            <td>46</td>
-                                            <td>356</td>
-                                            <td>
-                                                <h5 class="m-b-0">$2850.06</h5>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                                <div class="cont-row">
+                                        <div class="form-group box-form1">
+                                            <label for="" class="col-md-12">Número</label>
+                                            <div class="col-md-12">
+                                                <input type="number" placeholder="CNPJ" class="form-control form-control-line" name="example-email" id="example-email">
+                                            </div>
+                                        </div>
+                                        <div class="form-group box-form2">
+                                            <label class="col-md-12">Processo</label>
+                                            <div class="col-md-12">
+                                                <input type="text" value="password" class="form-control form-control-line">
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="form-group">
+                                    <label class="col-sm-12">Modalidade de licitação</label>
+                                    <div class="col-sm-12">
+                                        <select class="form-control form-control-line">
+                                            <option>Convite</option>
+                                            <option>Tomada de preços</option>
+                                            <option>Concorrência</option>
+                                            <option>Concurso</option>
+                                            <option>Leilão</option>
+                                            <option>Pregão presencial</option>
+                                            <option>Pregão Eletrônico</option>
+                                            <option>Regime Diferenciado de Contratações públicas - RDC</option>
+                                            <option>Inexigibilidade de licitação</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group float-right" style="width: 17.5% !important;">
+                                    <div class="col-sm-12 float-right">
+                                        <button class="btn btn-success">Próximo  <i class="fas fa-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
