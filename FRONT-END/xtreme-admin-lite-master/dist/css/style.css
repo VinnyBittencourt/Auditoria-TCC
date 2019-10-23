@@ -14948,3 +14948,15 @@ body {
   justify-content: center;
   align-items: center; */
 }
+
+.btn-prima{
+  color: #46b8ab;
+  border-color: #46b8ab;
+  border-radius: 15px;
+}
+
+.btn-prima:hover{
+  background-color: #46b8ab;
+  border: #46b8ab;
+  color: #fff;
+}
