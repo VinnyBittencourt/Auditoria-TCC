@@ -14861,119 +14861,90 @@ File: scss
   height: 100%;
 }
 
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:not(:checked), header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:checked {
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
+
+
+/* body {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  backface-visibility: hidden;
+} */
+
+.radio {
+  margin: 5px 0;
+  display: block;
+  cursor: pointer;
+  margin-right: 2rem;
 }
-
-  header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:not(:checked) + span, header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:checked + span {
-      position: relative;
-      padding-left: 35px;
-      cursor: pointer;
-      display: inline-block;
-      height: 25px;
-      line-height: 25px;
-      -webkit-transition: 0.28s ease;
-      transition: 0.28s ease;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      font-family: "Roboto", sans-serif;
-      font-size: 1.6rem;
-      color: #737373;
-  }
-
-.radio-brabo + span:before, header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"] + span:after {
+.radio input {
+  display: none;
+}
+.radio input + span {
+  line-height: 16px;
+  height: 16px;
+  padding-left: 16px;
+  display: block;
+  position: relative;
+}
+.radio input + span:not(:empty) {
+  padding-left: 18px;
+}
+.radio input + span:before, .radio input + span:after {
   content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin: 4px;
   width: 16px;
   height: 16px;
-  z-index: 0;
-  -webkit-transition: 0.28s ease;
-  transition: 0.28s ease;
-}
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:not(:checked) + span:before, header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:not(:checked) + span:after {
+  display: block;
   border-radius: 50%;
+  left: 0;
+  top: 0;
+  position: absolute;
 }
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:checked + span:before, header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:checked + span:after {
-  border-radius: 50%;
+.radio input + span:before {
+  background: #d1d7e3;
+  transition: background 0.2s ease, -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 2);
+  transition: background 0.2s ease, transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 2);
+  transition: background 0.2s ease, transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 2), -webkit-transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 2);
 }
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].marcador:checked + span:before, header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].marcador:checked + span:after {
-  border-radius: 50%;
+.radio input + span:after {
+  background: #fff;
+  -webkit-transform: scale(0.78);
+          transform: scale(0.78);
+  transition: -webkit-transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.4);
+  transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.4);
+  transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.4), -webkit-transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.4);
 }
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:not(:checked) + span:before {
-  border: 2px solid #DDDDDD;
+.radio input:checked + span:before {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  background: #46b8ab;
 }
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:not(:checked) + span:after {
-  border: 2px solid #DDDDDD;
-  -webkit-transform: scale(0);
-  transform: scale(0);
-}
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:checked + span:before {
-  border: 2px solid transparent;
-}
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:checked + span:after {
-  border: 2px solid #D93347;
-}
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].marcador:checked + span:before, header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].marcador:checked + span:after {
-  border: 2px solid #D93347;
-}
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:checked + span:after, header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].marcador:checked + span:after {
-  background-color: #D93347;
-}
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:checked + span:after {
-  -webkit-transform: scale(1.02);
-  transform: scale(1.02);
-}
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].marcador:checked + span:after {
+.radio input:checked + span:after {
   -webkit-transform: scale(0.4);
-  transform: scale(0.4);
+          transform: scale(0.4);
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.radio:hover input + span:before {
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+.radio:hover input + span:after {
+  -webkit-transform: scale(0.74);
+          transform: scale(0.74);
+}
+.radio:hover input:checked + span:after {
+  -webkit-transform: scale(0.4);
+          transform: scale(0.4);
 }
 
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].tabbed:focus + span:before {
-  -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].marcador:disabled:checked + span:before {
-  border: 2px solid rgba(0, 0, 0, 0.42);
-}
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"].marcador:disabled:checked + span:after {
-  border: none;
-  background-color: rgba(0, 0, 0, 0.42);
-}
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:disabled:not(:checked) + span:before, header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:disabled:checked + span:before {
-  background-color: transparent;
-  border-color: rgba(0, 0, 0, 0.42);
-}
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:disabled + span {
-  color: rgba(0, 0, 0, 0.42);
-}
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:disabled:not(:checked) + span:before {
-  border-color: rgba(0, 0, 0, 0.42);
-}
-
-header .nav-faca-sua-reserva .menu .form-faca-sua-reserva [type="radio"]:disabled:checked + span:after {
-  background-color: rgba(0, 0, 0, 0.42);
-  border-color: #949494;
+body {
+  font-family: Roboto, Arial;
+  /* min-height: 100vh;
+  color: #adafb6;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
 }
