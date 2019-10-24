@@ -147,7 +147,7 @@
                   <div class="form-group">
                     <label class="col-md-12">Razão Social</label>
                     <div class="col-md-12">
-                      <input
+                      <input id="nome"
                         type="text"
                         placeholder="Razão Social Da Empresa"
                         class="form-control form-control-line"
@@ -156,14 +156,13 @@
                   </div>
                   <div class="cont-row">
                     <div class="form-group box-form1">
-                      <label for="" class="col-md-12">CNPJ</label>
+                      <label class="col-md-12">CNPJ</label>
                       <div class="col-md-12">
                         <input
+                          id="cnpjId"
                           type="text"
                           placeholder="CNPJ"
                           class="form-control form-control-line"
-                          name="example-email"
-                          id="example-email"
                         />
                       </div>
                     </div>
@@ -183,8 +182,9 @@
                       <label for="" class="col-md-12">Número</label>
                       <div class="col-md-12">
                         <input
-                          type="number"
-                          placeholder="CNPJ"
+                          id="numero"
+                          type="text"
+                          placeholder="Número"
                           class="form-control form-control-line"
                           min="1"
                           name="example-email"
@@ -241,6 +241,7 @@
       </div>
     </div>
     <script src="../../assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
     <script src="../../assets/libs/popper.js/dist/umd/popper.min.js"></script>
     <script src="../../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -256,5 +257,7 @@
     <script src="../../assets/libs/chartist/dist/chartist.min.js"></script>
     <script src="../../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
     <script src="../../dist/js/pages/dashboards/dashboard1.js"></script>
+    <script src="../../dist/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </body>
 </html>
