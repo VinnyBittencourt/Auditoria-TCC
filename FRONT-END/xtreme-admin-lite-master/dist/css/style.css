@@ -14960,3 +14960,31 @@ body {
   border: #46b8ab;
   color: #fff;
 }
+
+.btn-prima:active{
+  background-color: #46b8ab !important;
+  border: #46b8ab !important;
+  color: #fff !important;
+  outline:0 !important;
+}
+
+.btn-prima::selection{
+  background-color: #46b8ab !important;
+  border: #46b8ab !important;
+  color: #fff !important;
+}
+
+.btn-prima:focus{
+  background-color: #46b8ab !important;
+  border: #46b8ab !important;
+  color: #fff !important;
+  outline:0 !important;
+}
+
+.disp{
+  display: none;
+}
+
+.rmv-disp{
+  display: flex;
+}
