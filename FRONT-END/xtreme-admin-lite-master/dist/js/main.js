@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
   //Adicionar e remover questões
+  //Art 45
   $("#45-concurso-on").click(function() {
     if ($("#45-concurso-on").is(":checked")) {
       $("#45-1").removeClass("disp");
@@ -49,6 +50,31 @@ $(document).ready(function() {
     }
   });
 
+  //Art 46
+  $("#46-sim").click(function() {
+    if ($("#46-sim").is(":checked")) {
+      $("#46-q").removeClass("disp");
+      $("#46-q").addClass("block-disp");
+
+    }
+  });
+
+  $("#46-nao").click(function() {
+    if ($("#46-nao").is(":checked")) {
+      $("#46-q").removeClass("block-disp");
+      $("#46-q").addClass("disp");
+    }
+  });
+
+  $("#46-nao2").click(function() {
+    if ($("#46-nao2").is(":checked")) {
+      $("#46-q").removeClass("block-disp");
+      $("#46-q").addClass("disp");
+    }
+  });
+
+
+
   //Mascaras
 
   // $("#CPFCNPJ").keydown(function () {
@@ -64,17 +90,17 @@ $(document).ready(function() {
   //       $("#CPFCNPJ").mask("99.999.999/9999-99");
   //   }
 
-  //   // ajustando foco
-  //   var elem = this;
-  //   setTimeout(function () {
-  //       // mudo a posição do seletor
-  //       elem.selectionStart = elem.selectionEnd = 10000;
-  //   }, 0);
-  //   // reaplico o valor para mudar o foco
-  //   var currentValue = $(this).val();
-  //   $(this).val('');
-  //   $(this).val(currentValue);
-  //   });
+    // // ajustando foco
+    // var elem = this;
+    // setTimeout(function () {
+    //     // mudo a posição do seletor
+    //     elem.selectionStart = elem.selectionEnd = 10000;
+    // }, 0);
+    // // reaplico o valor para mudar o foco
+    // var currentValue = $(this).val();
+    // $(this).val('');
+    // $(this).val(currentValue);
+    // });
 
   //   $("#cpfcnpj").keypress(function(){
   //     $("#cpfcnpj").unmask();
@@ -86,9 +112,9 @@ $(document).ready(function() {
   //         $("#cpfcnpj").mask("99.999.999/9999-99");
   //     }                   
   //   });
-    $("#cnpjId").on("input", function () {
-      $("#cnpjId").mask("99.999.999/9999-99");
-    });
+    // $("#cnpjId").on("input", function () {
+      // $("#CPFCNPJ").mask("99.999.999/9999-99");
+    // });
 
 
     //Mascara telefone

@@ -14988,3 +14988,7 @@ body {
 .rmv-disp{
   display: flex;
 }
+
+.block-disp{
+  display: block;
+}
