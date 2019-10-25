@@ -14993,3 +14993,18 @@ body {
 .block-disp{
   display: block;
 }
+
+
+/* media query */
+@media only screen and (max-width: 600px) {
+  .radio {
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .radio {
+    margin-right: 5px;
+  }
+}
+
