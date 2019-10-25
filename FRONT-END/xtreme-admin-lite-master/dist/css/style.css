@@ -14877,6 +14877,7 @@ File: scss
   display: block;
   cursor: pointer;
   margin-right: 2rem;
+  margin-bottom: 1rem;
 }
 .radio input {
   display: none;
