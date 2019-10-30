@@ -470,6 +470,132 @@ $(document).ready(function() {
     }
   });
 
+  //Art 15
+  $("#15-sim").click(function() {
+    if ($("#15-sim").is(":checked")) {
+      $("#15-q").removeClass("disp");
+      $("#15-q").addClass("block-disp");
+    }
+  });
+  $("#15-nao").click(function() {
+    if ($("#15-nao").is(":checked")) {
+      $("#15-q").removeClass("block-disp");
+      $("#15-q").addClass("disp");
+    }
+  });
+
+  $("#15-nao2").click(function() {
+    if ($("#15-nao2").is(":checked")) {
+      $("#15-q").removeClass("block-disp");
+      $("#15-q").addClass("disp");
+    }
+  });
+
+  //Art 16
+  $("#16-sim").click(function() {
+    if ($("#16-sim").is(":checked")) {
+      $("#16-q").removeClass("disp");
+      $("#16-q").addClass("block-disp");
+    }
+  });
+  $("#16-nao").click(function() {
+    if ($("#16-nao").is(":checked")) {
+      $("#16-q").removeClass("block-disp");
+      $("#16-q").addClass("disp");
+    }
+  });
+
+  $("#16-nao2").click(function() {
+    if ($("#16-nao2").is(":checked")) {
+      $("#16-q").removeClass("block-disp");
+      $("#16-q").addClass("disp");
+    }
+  });
+
+  //Art 11
+  $("#11-sim").click(function() {
+    if ($("#11-sim").is(":checked")) {
+      $("#11-q").removeClass("disp");
+      $("#11-q").addClass("block-disp");
+    }
+  });
+  $("#11-nao").click(function() {
+    if ($("#11-nao").is(":checked")) {
+      $("#11-q").removeClass("block-disp");
+      $("#11-q").addClass("disp");
+    }
+  });
+
+  $("#11-nao2").click(function() {
+    if ($("#11-nao2").is(":checked")) {
+      $("#11-q").removeClass("block-disp");
+      $("#11-q").addClass("disp");
+    }
+  });
+
+  //Art 16
+  $("#16-sim").click(function() {
+    if ($("#16-sim").is(":checked")) {
+      $("#16-q").removeClass("disp");
+      $("#16-q").addClass("block-disp");
+    }
+  });
+  $("#16-nao").click(function() {
+    if ($("#16-nao").is(":checked")) {
+      $("#16-q").removeClass("block-disp");
+      $("#16-q").addClass("disp");
+    }
+  });
+
+  $("#16-nao2").click(function() {
+    if ($("#16-nao2").is(":checked")) {
+      $("#16-q").removeClass("block-disp");
+      $("#16-q").addClass("disp");
+    }
+  });
+
+  //Art 174
+  $("#174-sim").click(function() {
+    if ($("#174-sim").is(":checked")) {
+      $("#174-q").removeClass("disp");
+      $("#174-q").addClass("block-disp");
+    }
+  });
+  $("#174-nao").click(function() {
+    if ($("#174-nao").is(":checked")) {
+      $("#174-q").removeClass("block-disp");
+      $("#174-q").addClass("disp");
+    }
+  });
+
+  $("#174-nao2").click(function() {
+    if ($("#174-nao2").is(":checked")) {
+      $("#174-q").removeClass("block-disp");
+      $("#174-q").addClass("disp");
+    }
+  });
+
+  //Art 21
+  $("#21-sim").click(function() {
+    if ($("#21-sim").is(":checked")) {
+      $("#21-q").removeClass("disp");
+      $("#21-q").addClass("block-disp");
+    }
+  });
+  $("#21-nao").click(function() {
+    if ($("#21-nao").is(":checked")) {
+      $("#21-q").removeClass("block-disp");
+      $("#21-q").addClass("disp");
+    }
+  });
+
+  $("#21-nao2").click(function() {
+    if ($("#21-nao2").is(":checked")) {
+      $("#21-q").removeClass("block-disp");
+      $("#21-q").addClass("disp");
+    }
+  });
+
   //Mascaras
 
   // $("#CPFCNPJ").keydown(function () {
