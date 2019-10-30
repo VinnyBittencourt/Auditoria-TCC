@@ -617,6 +617,48 @@ $(document).ready(function() {
     }
   });
 
+  //Art 212
+  $("#212-sim").click(function() {
+    if ($("#212-sim").is(":checked")) {
+      $("#212-q").removeClass("disp");
+      $("#212-q").addClass("block-disp");
+    }
+  });
+  $("#212-nao").click(function() {
+    if ($("#212-nao").is(":checked")) {
+      $("#212-q").removeClass("block-disp");
+      $("#212-q").addClass("disp");
+    }
+  });
+
+  $("#212-nao2").click(function() {
+    if ($("#212-nao2").is(":checked")) {
+      $("#212-q").removeClass("block-disp");
+      $("#212-q").addClass("disp");
+    }
+  });
+
+  //Art 53
+  $("#53-sim").click(function() {
+    if ($("#53-sim").is(":checked")) {
+      $("#53-q").removeClass("disp");
+      $("#53-q").addClass("block-disp");
+    }
+  });
+  $("#53-nao").click(function() {
+    if ($("#53-nao").is(":checked")) {
+      $("#53-q").removeClass("block-disp");
+      $("#53-q").addClass("disp");
+    }
+  });
+
+  $("#53-nao2").click(function() {
+    if ($("#53-nao2").is(":checked")) {
+      $("#53-q").removeClass("block-disp");
+      $("#53-q").addClass("disp");
+    }
+  });
+
   //Mascaras
 
   // $("#CPFCNPJ").keydown(function () {
