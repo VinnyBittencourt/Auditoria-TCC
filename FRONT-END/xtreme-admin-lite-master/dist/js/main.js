@@ -596,6 +596,27 @@ $(document).ready(function() {
     }
   });
 
+  //Art 6
+  $("#6-nao").click(function() {
+    if ($("#6-nao").is(":checked")) {
+      $("#6-q").removeClass("disp");
+      $("#6-q").addClass("block-disp");
+    }
+  });
+  $("#6-sim").click(function() {
+    if ($("#6-sim").is(":checked")) {
+      $("#6-q").removeClass("block-disp");
+      $("#6-q").addClass("disp");
+    }
+  });
+
+  $("#6-nao2").click(function() {
+    if ($("#6-nao2").is(":checked")) {
+      $("#6-q").removeClass("block-disp");
+      $("#6-q").addClass("disp");
+    }
+  });
+
   //Mascaras
 
   // $("#CPFCNPJ").keydown(function () {
