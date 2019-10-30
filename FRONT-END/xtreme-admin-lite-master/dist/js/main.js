@@ -722,6 +722,27 @@ $(document).ready(function() {
     }
   });
 
+  //Art 23z
+  $("#23z-sim").click(function() {
+    if ($("#23z-sim").is(":checked")) {
+      $("#23z-q").removeClass("disp");
+      $("#23z-q").addClass("block-disp");
+    }
+  });
+  $("#23z-nao").click(function() {
+    if ($("#23z-nao").is(":checked")) {
+      $("#23z-q").removeClass("block-disp");
+      $("#23z-q").addClass("disp");
+    }
+  });
+
+  $("#23z-nao2").click(function() {
+    if ($("#23z-nao2").is(":checked")) {
+      $("#23z-q").removeClass("block-disp");
+      $("#23z-q").addClass("disp");
+    }
+  });
+
   //Mascaras
 
   // $("#CPFCNPJ").keydown(function () {
