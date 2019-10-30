@@ -659,6 +659,69 @@ $(document).ready(function() {
     }
   });
 
+  //Art 224
+  $("#224-sim").click(function() {
+    if ($("#224-sim").is(":checked")) {
+      $("#224-q").removeClass("disp");
+      $("#224-q").addClass("block-disp");
+    }
+  });
+  $("#224-nao").click(function() {
+    if ($("#224-nao").is(":checked")) {
+      $("#224-q").removeClass("block-disp");
+      $("#224-q").addClass("disp");
+    }
+  });
+
+  $("#224-nao2").click(function() {
+    if ($("#224-nao2").is(":checked")) {
+      $("#224-q").removeClass("block-disp");
+      $("#224-q").addClass("disp");
+    }
+  });
+
+  //Art 52
+  $("#52-sim").click(function() {
+    if ($("#52-sim").is(":checked")) {
+      $("#52-q").removeClass("disp");
+      $("#52-q").addClass("block-disp");
+    }
+  });
+  $("#52-nao").click(function() {
+    if ($("#52-nao").is(":checked")) {
+      $("#52-q").removeClass("block-disp");
+      $("#52-q").addClass("disp");
+    }
+  });
+
+  $("#52-nao2").click(function() {
+    if ($("#52-nao2").is(":checked")) {
+      $("#52-q").removeClass("block-disp");
+      $("#52-q").addClass("disp");
+    }
+  });
+
+  //Art 522
+  $("#522-sim").click(function() {
+    if ($("#522-sim").is(":checked")) {
+      $("#522-q").removeClass("disp");
+      $("#522-q").addClass("block-disp");
+    }
+  });
+  $("#522-nao").click(function() {
+    if ($("#522-nao").is(":checked")) {
+      $("#522-q").removeClass("block-disp");
+      $("#522-q").addClass("disp");
+    }
+  });
+
+  $("#522-nao2").click(function() {
+    if ($("#522-nao2").is(":checked")) {
+      $("#522-q").removeClass("block-disp");
+      $("#522-q").addClass("disp");
+    }
+  });
+
   //Mascaras
 
   // $("#CPFCNPJ").keydown(function () {
