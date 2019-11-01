@@ -764,6 +764,48 @@ $(document).ready(function() {
     }
   });
 
+  //Art 23x
+  $("#23x-sim").click(function() {
+    if ($("#23x-sim").is(":checked")) {
+      $("#23x-q").removeClass("disp");
+      $("#23x-q").addClass("block-disp");
+    }
+  });
+  $("#23x-nao").click(function() {
+    if ($("#23x-nao").is(":checked")) {
+      $("#23x-q").removeClass("block-disp");
+      $("#23x-q").addClass("disp");
+    }
+  });
+
+  $("#23x-nao2").click(function() {
+    if ($("#23x-nao2").is(":checked")) {
+      $("#23x-q").removeClass("block-disp");
+      $("#23x-q").addClass("disp");
+    }
+  });
+
+  //Art 62z
+  $("#62z-nao").click(function() {
+    if ($("#62z-nao").is(":checked")) {
+      $("#62z-q").removeClass("disp");
+      $("#62z-q").addClass("block-disp");
+    }
+  });
+  $("#62z-sim").click(function() {
+    if ($("#62z-sim").is(":checked")) {
+      $("#62z-q").removeClass("block-disp");
+      $("#62z-q").addClass("disp");
+    }
+  });
+
+  $("#62z-nao2").click(function() {
+    if ($("#62z-nao2").is(":checked")) {
+      $("#62z-q").removeClass("block-disp");
+      $("#62z-q").addClass("disp");
+    }
+  });
+
   //Mascaras
 
   // $("#CPFCNPJ").keydown(function () {
