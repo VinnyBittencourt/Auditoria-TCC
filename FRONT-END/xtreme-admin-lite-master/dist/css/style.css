@@ -15036,12 +15036,13 @@ body {
   .tr-respon {
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
   }
   .td-respon{
     width: 100vw;
     border-top: none !important;
     padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    padding-bottom: 10px !important;    
   }
   .button-respon{
     display: flex;
@@ -15067,7 +15068,7 @@ body {
   }
   .disp-tit2{
     display: inline-block;
-    font-style: italic;
+    
   }
 }
 
