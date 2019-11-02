@@ -15000,6 +15000,9 @@ body {
 .disp-tit2{
   display: none;
 }
+.tit-respon{
+  padding-right: 0;
+}
 
 
 
@@ -15069,6 +15072,9 @@ body {
   .disp-tit2{
     display: inline-block;
     
+  }
+  .tit-respon{
+    padding-right: 2rem !important;
   }
 }
 

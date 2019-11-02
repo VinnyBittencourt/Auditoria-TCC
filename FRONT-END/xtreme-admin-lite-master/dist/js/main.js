@@ -848,8 +848,19 @@ $(document).ready(function() {
     }
   });
 
+  //Ajuste css
+  var itens = $(".container-respon h4");
+  itens.each(function() {
+    if ($(this).text().length > 36) {
+      $(this)
+        .parent()
+        .css("padding-right", "2rem");
+    }
+  });
+
   //Mascaras
 
+  $("#CPFCNPJ").mask("99.999.999/9999-99");
   // $("#CPFCNPJ").keydown(function () {
   //   try {
   //       $("#CPFCNPJ").unmask();
