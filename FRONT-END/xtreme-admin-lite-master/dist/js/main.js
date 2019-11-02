@@ -848,6 +848,69 @@ $(document).ready(function() {
     }
   });
 
+  //Art 21a
+  $("#21a-sim").click(function() {
+    if ($("#21a-sim").is(":checked")) {
+      $("#21a-q").removeClass("disp");
+      $("#21a-q").addClass("block-disp");
+    }
+  });
+  $("#21a-nao").click(function() {
+    if ($("#21a-nao").is(":checked")) {
+      $("#21a-q").removeClass("block-disp");
+      $("#21a-q").addClass("disp");
+    }
+  });
+
+  $("#21a-nao2").click(function() {
+    if ($("#21a-nao2").is(":checked")) {
+      $("#21a-q").removeClass("block-disp");
+      $("#21a-q").addClass("disp");
+    }
+  });
+
+  //Art 21b
+  $("#21b-sim").click(function() {
+    if ($("#21b-sim").is(":checked")) {
+      $("#21b-q").removeClass("disp");
+      $("#21b-q").addClass("block-disp");
+    }
+  });
+  $("#21b-nao").click(function() {
+    if ($("#21b-nao").is(":checked")) {
+      $("#21b-q").removeClass("block-disp");
+      $("#21b-q").addClass("disp");
+    }
+  });
+
+  $("#21b-nao2").click(function() {
+    if ($("#21b-nao2").is(":checked")) {
+      $("#21b-q").removeClass("block-disp");
+      $("#21b-q").addClass("disp");
+    }
+  });
+
+  //Art 38
+  $("#38-sim").click(function() {
+    if ($("#38-sim").is(":checked")) {
+      $("#38-q").removeClass("disp");
+      $("#38-q").addClass("block-disp");
+    }
+  });
+  $("#38-nao").click(function() {
+    if ($("#38-nao").is(":checked")) {
+      $("#38-q").removeClass("block-disp");
+      $("#38-q").addClass("disp");
+    }
+  });
+
+  $("#38-nao2").click(function() {
+    if ($("#38-nao2").is(":checked")) {
+      $("#38-q").removeClass("block-disp");
+      $("#38-q").addClass("disp");
+    }
+  });
+
   //Ajuste css
   var itens = $(".container-respon h4");
   itens.each(function() {

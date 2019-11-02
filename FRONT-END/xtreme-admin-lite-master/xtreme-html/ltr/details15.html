@@ -1,0 +1,676 @@
+<html dir="ltr" lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../../assets/images/favicon.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>
+      Auditoria Online
+    </title>
+    <link
+      href="../../assets/libs/chartist/dist/chartist.min.css"
+      rel="stylesheet"
+    />
+    <link href="../../dist/css/style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="preloader">
+      <div class="lds-ripple">
+        <div class="lds-pos"></div>
+        <div class="lds-pos"></div>
+      </div>
+    </div>
+    <div
+      id="main-wrapper"
+      data-layout="vertical"
+      data-navbarbg="skin5"
+      data-sidebartype="full"
+      data-sidebar-position="absolute"
+      data-header-position="absolute"
+      data-boxed-layout="full"
+    >
+      <header class="topbar" data-navbarbg="skin5">
+        <nav
+          class="navbar top-navbar navbar-expand-md navbar-dark"
+          style="background: #46b8ab;"
+        >
+          <div
+            class="navbar-header"
+            data-logobg="skin5"
+            style="background: #46b8ab;"
+          >
+            <a class="navbar-brand" href="index.html">
+              <b class="logo-icon"> </b>
+              <span class="logo-text">
+                <h1
+                  style="font-family: 'Josefin Sans', sans-serif; padding: 5px; font-size: 20px; margin: 10px;"
+                >
+                  Auditoria Online
+                </h1>
+              </span>
+            </a>
+            <a
+              class="nav-toggler waves-effect waves-light d-block d-md-none"
+              href="javascript:void(0)"
+              ><i class="ti-menu ti-close"></i
+            ></a>
+          </div>
+          <div
+            class="navbar-collapse collapse"
+            id="navbarSupportedContent"
+            data-navbarbg="skin5"
+            style="background: #46b8ab;"
+          >
+            <ul class="navbar-nav float-right"></ul>
+          </div>
+        </nav>
+      </header>
+      <aside class="left-sidebar" data-sidebarbg="skin6">
+        <div class="scroll-sidebar">
+          <nav class="sidebar-nav">
+            <ul id="sidebarnav">
+              <li>
+                <div class="user-profile d-flex no-block dropdown m-t-20">
+                  <div class="user-content hide-menu m-l-10">
+                    <a
+                      href="javascript:void(0)"
+                      class=""
+                      id="Userdd"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <h5 class="m-b-0 user-name font-medium">
+                        Joyce contabeis
+                      </h5>
+                      <span class="op-5 user-email">joyce@gmail.com</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="p-15 m-t-10">
+                <a
+                  href="create.html"
+                  class="btn btn-block create-btn text-white no-block d-flex align-items-center btn-cor"
+                  ><i class="far fa-edit"></i>
+                  <span class="hide-menu m-l-5">Nova Auditoria</span>
+                </a>
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="index.html"
+                  aria-expanded="false"
+                  ><i class="fa fa-bars" aria-hidden="true"></i
+                  ><span class="hide-menu">Menu</span></a
+                >
+              </li>
+
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="../../../Login Page/index.html"
+                  aria-expanded="false"
+                  ><i class="fa fa-power-off "></i
+                  ><span class="hide-menu">Sair</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+      <div class="page-wrapper">
+        <div class="page-breadcrumb">
+          <div class="row align-items-center">
+            <div class="col-5">
+              <h4 class="page-title">EDITAL</h4>
+              <div class="d-flex align-items-center"></div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="col-lg-8 col-xlg-9 col-md-7">
+            <div class="card">
+              <div class="card-body">
+                <form class="form-horizontal form-material">
+                  <div class="titulo-main" class="col-md-12">
+                    <label
+                      style="font-family: 'Oswald', sans-serif; font-size: 1.5rem; margin-left: 40%; margin-right: auto;"
+                      >Lei 8.666/93</label
+                    >
+                  </div>
+                  <label class="font-italic font-weight-light"
+                    >Art. 9º caput, §3º e §4º</label
+                  >
+
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Não há impedimento dos membros da comissão de licitação em conformidade com o disposto no art. 9º, caput, §3º e §4º da Lei 8.666/93.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1400" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1400" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1400" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 51, caput</label
+                  >
+
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Comissão permanente ou especial de, no mínimo, 3 (três) membros, sendo pelo menos 2 (dois) deles servidores qualificados pertencentes aos quadros permanentes dos órgãos da Administração responsáveis pela licitação.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1401" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1401" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1401" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 51, §4º</label
+                  >
+
+                  <div class="row m-l-10">
+                    <h5 class="col-md-12 m-t-10 font-italic">
+                        Se a comissão for permanente:
+                    </h5>
+                    <label class="col-md-12"
+                      >A investidura dos membros das Comissões permanentes não excede a 1 (um) ano, 
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1402" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1402" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1402" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Vedada a recondução da totalidade de seus membros para a mesma comissão no período subsequente.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1403" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1403" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1403" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+
+
+
+
+
+
+
+
+
+                  <hr />
+                  <hr />
+                  <hr />
+                  <label class="font-italic font-weight-light">
+                    Art. 38, caput
+                  </label>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Houve abertura de processo administrativo.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input id="38-sim" type="radio" name="1300" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input id="38-nao" type="radio" name="1300" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input id="38-nao2" type="radio" name="1300" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <div id="38-q" class="disp">
+                    <h5 class="col-md-12 m-t-10 font-italic">
+                      Se sim:
+                    </h5>
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >O processo foi devidamente autuado.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="1301" value="1" />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="1301" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="1301" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >O processo foi protocolado.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="1302" value="1" />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="1302" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="1302" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>
+                    <div class="row m-l-10">
+                      <label class="col-md-12">O processo foi numerado. </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="1303" value="1" />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="1303" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="1303" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >A licitação foi autorizada.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="1304" value="1" />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="1304" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="1304" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >Houve a indicação sucinta do objeto.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="1305" value="1" />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="1305" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="1305" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >Houve a indicação do recurso orçamentário próprio para
+                        a despesa.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="1306" value="1" />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="1306" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="1306" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>
+                  </div>
+                  <hr />
+
+                  <label class="font-italic font-weight-light"
+                    >Art. 38, I a XII</label
+                  >
+
+                  <div class="row m-l-10">
+                    <h5 class="col-md-12 m-t-10 font-italic">
+                      Estão presentes no processo:
+                    </h5>
+                    <label class="col-md-12"
+                      >Edital ou convite e respectivos anexos, quando for o
+                      caso.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1307" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1307" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1307" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Comprovante das publicações do edital resumido, na forma
+                      do art. 21 desta Lei, ou da entrega do convite.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1308" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1308" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1308" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Ato de designação da comissão de licitação, do leiloeiro
+                      administrativo ou oficial, ou do responsável pelo convite.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1309" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1309" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1309" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Original das propostas e dos documentos que as
+                      instruírem.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1310" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1310" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1310" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Atas, relatórios e deliberações da Comissão Julgadora.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1311" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1311" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1311" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Pareceres técnicos ou jurídicos emitidos sobre a
+                      licitação, dispensa ou inexigibilidade.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1312" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1312" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1312" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Ato de adjudicação do objeto da licitação.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1313" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1313" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1313" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Ato de homologação da licitação.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1314" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1314" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1314" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Recursos eventualmente apresentados pelos licitantes e
+                      respectivas manifestações e decisões.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1315" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1315" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1315" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Despacho de anulação ou de revogação da licitação, quando
+                      for o caso, fundamentado circunstanciadamente.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1316" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1316" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1316" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Termo de contrato ou instrumento equivalente, conforme o
+                      caso.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1317" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1317" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1317" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Outros comprovantes de publicações.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1318" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1318" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1318" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Demais documentos relativos à licitação.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1319" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1319" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1319" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <hr />
+
+                  <label class="font-italic font-weight-light"
+                    >Art. 38, parágrafo único</label
+                  >
+
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Exame prévio e aprovação da Acessoria Jurídica da
+                      Administração das minutas de editais de licitação, bem
+                      como as dos contratos, acordos, convênios ou ajustes.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="1320" value="1" />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1320" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="1320" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer text-center footer-magic"></footer>
+      </div>
+    </div>
+
+    <script src="../../assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../dist/js/app-style-switcher.js"></script>
+    <!--Wave Effects -->
+    <script src="../../dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../../dist/js/custom.js"></script>
+    <!--This page JavaScript -->
+    <!--chartis chart-->
+    <script src="../../assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="../../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="../../dist/js/pages/dashboards/dashboard1.js"></script>
+    <script src="../../dist/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </body>
+</html>
