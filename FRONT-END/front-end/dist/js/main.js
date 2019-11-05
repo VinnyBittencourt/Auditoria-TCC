@@ -921,6 +921,10 @@ $(document).ready(function() {
     }
   });
 
+  // if($('#relatorioop option:selected').val() == 'Categorias'){
+  //   $('.dsb-btn').css()
+  // }
+
   //Mascaras
 
   $("#CPFCNPJ").mask("99.999.999/9999-99");

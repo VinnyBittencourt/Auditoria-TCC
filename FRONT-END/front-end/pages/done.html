@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html dir="ltr" lang="pt-br">
   <head>
     <meta charset="utf-8" />
@@ -12,16 +11,22 @@
       sizes="16x16"
       href="../../assets/images/favicon.ico"
     />
-    <title>Auditoria Online</title>
-    <link
-      href="../../assets/libs/chartist/dist/chartist.min.css"
-      rel="stylesheet"
-    />
     <link
       href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
       rel="stylesheet"
     />
+    <title>
+      Auditoria Online
+    </title>
+    <link
+      href="../../assets/libs/chartist/dist/chartist.min.css"
+      rel="stylesheet"
+    />
     <link href="../../dist/css/style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -84,7 +89,7 @@
                 <div class="user-profile d-flex no-block dropdown m-t-20">
                   <div class="user-content hide-menu m-l-10">
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       class=""
                       id="Userdd"
                       role="button"
@@ -102,7 +107,7 @@
               </li>
               <li class="p-15 m-t-10">
                 <a
-                  href="javascript:void(0)"
+                  href="create.html"
                   class="btn btn-block create-btn text-white no-block d-flex align-items-center btn-cor"
                   ><i class="far fa-edit"></i>
                   <span class="hide-menu m-l-5">Nova Auditoria</span>
@@ -117,6 +122,7 @@
                   ><span class="hide-menu">Menu</span></a
                 >
               </li>
+
               <li class="sidebar-item">
                 <a
                   class="sidebar-link waves-effect waves-dark sidebar-link"
@@ -134,7 +140,7 @@
         <div class="page-breadcrumb">
           <div class="row align-items-center">
             <div class="col-5">
-              <h4 class="page-title">Nova Auditoria</h4>
+              <h4 class="page-title">EDITAL</h4>
               <div class="d-flex align-items-center"></div>
             </div>
           </div>
@@ -144,96 +150,47 @@
             <div class="card">
               <div class="card-body">
                 <form class="form-horizontal form-material">
-                  <div class="form-group">
-                    <label class="col-md-12">Razão Social</label>
-                    <div class="col-md-12">
-                      <input
-                        id="nome"
-                        type="text"
-                        placeholder="Razão Social Da Empresa"
-                        class="form-control form-control-line"
-                      />
-                    </div>
+                  <div class="titulo-main" class="col-md-12">
+                    <label
+                      style="font-family: 'Oswald', sans-serif; font-size: 1.5rem; margin-left: 40%; margin-right: auto; margin-bottom: 50px;"
+                      >Relatório</label
+                    >
                   </div>
-                  <div class="cont-row">
-                    <div class="form-group box-form1">
-                      <label for="CPFCNPJ" class="col-md-12">CNPJ</label>
-                      <div class="col-md-12">
-                        <input
-                          type="text"
-                          id="CPFCNPJ"
-                          placeholder="CNPJ"
-                          name="CPFCNPJ"
-                          class="form-control form-control-line input"
-                        />
-                      </div>
-                    </div>
-                    <div class="form-group box-form2">
-                      <label class="col-md-12">Data</label>
-                      <div class="col-md-12">
-                        <input
-                          type="date"
-                          value="password"
-                          class="form-control form-control-line"
-                        />
-                      </div>
-                    </div>
+                  <div class="ml-auto m-b-30">
+                        <div class="dl">
+                            <div class="align-items-center m-t-50">
+                                <h4 class="card-title">Categoria do relatório</h4>
+                                <h5 class="card-subtitle">Selecione uma categoria para continuar</h5>
+                            </div>
+                            <select id="relatorioop" class="custom-select">
+                                <option value="0" selected>Categorias</option>
+                                <option value="1">Parecer favorável</option>
+                                <option value="2">Parecer desfavorável</option>
+                                <option value="3">Parecer com ressalva</option>
+                            </select>
+                        </div>
+                        
                   </div>
-                  <div class="cont-row">
-                    <div class="form-group box-form1">
-                      <label for="" class="col-md-12">Número</label>
-                      <div class="col-md-12">
-                        <input
-                          id="numero"
-                          type="text"
-                          placeholder="Número"
-                          class="form-control form-control-line"
-                          min="1"
-                          name="example-email"
-                          id="example-email"
-                        />
-                      </div>
-                    </div>
-                    <div class="form-group box-form2">
-                      <label class="col-md-12">Processo</label>
-                      <div class="col-md-12">
-                        <input
-                          type="text"
-                          placeholder="Processo"
-                          class="form-control form-control-line"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="col-sm-12">Modalidade de licitação</label>
-                    <div class="col-sm-12">
-                      <select class="form-control form-control-line">
-                        <option>Convite</option>
-                        <option>Tomada de preços</option>
-                        <option>Concorrência</option>
-                        <option>Concurso</option>
-                        <option>Leilão</option>
-                        <option>Pregão presencial</option>
-                        <option>Pregão Eletrônico</option>
-                        <option
-                          >Regime Diferenciado de Contratações públicas -
-                          RDC</option
-                        >
-                        <option>Dispensa ou Inexigibilidade de licitação</option>
-                      </select>
+                  <div
+                    class="form-group float-right flt-respon"
+                    style="width: 17.5% !important;"
+                  >
+                    <div class="col-sm-12 float-right flt-respon dsb-btn">
+                      <a href="details.html" class="btn btn-success flt-respon"
+                        >Terminar <i class="fas fa-check"></i></a>
                     </div>
                   </div>
                   <div
                     class="form-group float-right flt-respon"
                     style="width: 17.5% !important;"
                   >
-                    <div class="col-sm-12 float-right flt-respon">
-                      <a href="details.html" class="btn btn-success flt-respon"
-                        >Próximo <i class="fas fa-arrow-right"></i
-                      ></a>
+                    <div class="col-sm-12 float-right flt-respon dsb-btn">
+                      <a href="details.html" class="btn btn-danger flt-respon"
+                        >Gerar PDF</a>
                     </div>
                   </div>
+                  
+                 
                 </form>
               </div>
             </div>
@@ -243,19 +200,24 @@
       </div>
     </div>
 
-    <script src="/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/libs/jquery/dist/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="/assets/libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/dist/js/app-style-switcher.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../dist/js/app-style-switcher.js"></script>
+    <!--Wave Effects -->
     <script src="../../dist/js/waves.js"></script>
-    <script src="/dist/js/sidebarmenu.js"></script>
-    <script src="/dist/js/custom.js"></script>
+    <!--Menu sidebar -->
+    <script src="../../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../../dist/js/custom.js"></script>
+    <!--This page JavaScript -->
+    <!--chartis chart-->
+    <script src="../../assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="../../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="../../dist/js/pages/dashboards/dashboard1.js"></script>
+    <script src="../../dist/js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="/dist/js/jquery.mask.js"></script>
-    <script src="/assets/libs/chartist/dist/chartist.min.js"></script>
-    <script src="/assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
-    <script src="/dist/js/pages/dashboards/dashboard1.js"></script>
-    <script src="/dist/js/main.js"></script>
   </body>
 </html>

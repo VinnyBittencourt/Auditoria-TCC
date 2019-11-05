@@ -217,6 +217,23 @@ iframe {
   padding-bottom: 39px;
 }
 
+.login100-form-title2{
+  font-family: JosefinSans-Bold;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1rem;
+  text-align: center;
+
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 10;
+  left: 0;
+  background-color: #46b8ab;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 /*------------------------------------------------------------------
 [ Input ]*/
 
