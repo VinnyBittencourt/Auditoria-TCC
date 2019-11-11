@@ -1,0 +1,1320 @@
+<html dir="ltr" lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/images/favicon.ico"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>
+      Auditoria Online
+    </title>
+    <link
+      href="../assets/libs/chartist/dist/chartist.min.css"
+      rel="stylesheet"
+    />
+    <link href="../dist/css/style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="preloader">
+      <div class="lds-ripple">
+        <div class="lds-pos"></div>
+        <div class="lds-pos"></div>
+      </div>
+    </div>
+    <div
+      id="main-wrapper"
+      data-layout="vertical"
+      data-navbarbg="skin5"
+      data-sidebartype="full"
+      data-sidebar-position="absolute"
+      data-header-position="absolute"
+      data-boxed-layout="full"
+    >
+      <header class="topbar" data-navbarbg="skin5">
+        <nav
+          class="navbar top-navbar navbar-expand-md navbar-dark"
+          style="background: #46b8ab;"
+        >
+          <div
+            class="navbar-header"
+            data-logobg="skin5"
+            style="background: #46b8ab;"
+          >
+            <a class="navbar-brand" href="index.html">
+              <b class="logo-icon"> </b>
+              <span class="logo-text">
+                <h1
+                  style="font-family: 'Josefin Sans', sans-serif; padding: 5px; font-size: 20px; margin: 10px;"
+                >
+                  Auditoria Online
+                </h1>
+              </span>
+            </a>
+            <a
+              class="nav-toggler waves-effect waves-light d-block d-md-none"
+              href="javascript:void(0)"
+              ><i class="ti-menu ti-close"></i
+            ></a>
+          </div>
+          <div
+            class="navbar-collapse collapse"
+            id="navbarSupportedContent"
+            data-navbarbg="skin5"
+            style="background: #46b8ab;"
+          >
+            <ul class="navbar-nav float-right"></ul>
+          </div>
+        </nav>
+      </header>
+      <aside class="left-sidebar" data-sidebarbg="skin6">
+        <div class="scroll-sidebar">
+          <nav class="sidebar-nav">
+            <ul id="sidebarnav">
+              <li>
+                <div class="user-profile d-flex no-block dropdown m-t-20">
+                  <div class="user-content hide-menu m-l-10">
+                    <a
+                      href="javascript:void(0)"
+                      class=""
+                      id="Userdd"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <h5 class="m-b-0 user-name font-medium">
+                        Joyce contabeis
+                      </h5>
+                      <span class="op-5 user-email">joyce@gmail.com</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="p-15 m-t-10">
+                <a
+                  href="create.html"
+                  class="btn btn-block create-btn text-white no-block d-flex align-items-center btn-cor"
+                  ><i class="far fa-edit"></i>
+                  <span class="hide-menu m-l-5">Nova Auditoria</span>
+                </a>
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="index.html"
+                  aria-expanded="false"
+                  ><i class="fa fa-bars" aria-hidden="true"></i
+                  ><span class="hide-menu">Menu</span></a
+                >
+              </li>
+
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="../index.html"
+                  aria-expanded="false"
+                  ><i class="fa fa-power-off "></i
+                  ><span class="hide-menu">Sair</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+      <div class="page-wrapper">
+        <div class="page-breadcrumb">
+          <div class="row align-items-center">
+            <div class="col-5">
+              <h4 class="page-title">Contrato</h4>
+              <div class="d-flex align-items-center"></div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="col-lg-8 col-xlg-9 col-md-7">
+            <div class="card">
+              <div class="card-body">
+                <form class="form-horizontal form-material">
+                  <div class="titulo-main" class="col-md-12">
+                    <label
+                      style="font-family: 'Oswald', sans-serif; font-size: 1.5rem; margin-left: 40%; margin-right: auto;"
+                      >Lei 8.666/93</label
+                    >
+                  </div>
+                  <label class="font-italic font-weight-light"
+                    >Art. 62, §1º</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >A minuta do futuro contrato integra o edital ou ato convocatório da licitação.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="101" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="101" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="101" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <hr />
+
+                  <label class="font-italic font-weight-light"
+                    >Art. 62, caput</label
+                  >
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Está presente o instrumento de contrato. Obrigatório nos casos de concorrência e de tomada de preços, bem como nas dispensas e inexigibilidades cujos preços estejam compreendidos nos limites destas duas modalidades de licitação, está presente.e facultativo nos demais em que a Administração puder substituí-lo por outros instrumentos hábeis, tais como carta-contrato, nota de empenho de despesa, autorização de compra ou ordem de execução de serviço. 
+                    </label>
+                    <label class="radio m-l-30">
+                      <input id="61-sim" type="radio" name="102" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input id="61-nao" type="radio" name="102" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input id="61-nao2" type="radio" name="102" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <div id="61-q" class="disp">
+                  <h5 class="col-md-12 m-t-10 font-italic">
+                    Se não:
+                  </h5>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Foi substituído por outros instrumentos hábeis, tais como carta-contrato, nota de empenho de despesa, autorização de compra ou ordem de execução de serviço. 
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="103" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="103" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="103" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>                  
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 61, parágrafo único</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >A publicação resumida do instrumento de contrato ou de seus aditamentos na imprensa oficial, foi providenciada pela Administração até o quinto dia útil do mês seguinte ao de sua assinatura, ocorrendo no prazo de vinte dias daquela data, qualquer  valor, ainda que sem ônus, ressalvado o disposto no art. 26 da Lei 8.666/93.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="104" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="104" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="104" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 64, caput</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >A Administração convocou o interessado para assinar o termo de contrato, aceitar ou retirar o instrumento equivalente, dentro do prazo e condições estabelecidos.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="105" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="105" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="105" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 64, §1º</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >O prazo de convocação foi prorrogado uma vez, por igual período, por solicitação da parte durante o seu transcurso, com motivo justificado aceito pela Administração.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="106" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="106" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="106" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 50</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >A Administração celebrou o contrato obedecendo a ordem de classificação das propostas, não sendo com terceiros estranhos ao procedimento licitatório.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="107" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="107" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="107" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+
+                  <label class="font-italic font-weight-light m-t-20"
+                      >Art. 61</label
+                    >
+                    <h5 class="col-md-12 m-t-10 font-italic">
+                        O contrato menciona:
+                    </h5>
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >Os nomes das partes e os de seus representantes.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input  type="radio" name="108" value="1"  />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input  type="radio" name="108" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input  type="radio" name="108" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >A finalidade.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="109" value="1"  />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="109" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="109" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >O ato que autorizou a sua lavratura.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="110" value="1"  />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="110" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="110" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>
+                    <div class="row m-l-10">
+                        <label class="col-md-12"
+                          >O número do processo da licitação, da dispensa ou da inexigibilidade.
+                        </label>
+                        <label class="radio m-l-30">
+                          <input type="radio" name="111" value="1"  />
+                          <span class="font-weight-normal">Sim</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="111" value="2" />
+                          <span class="font-weight-normal">Não</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="111" value="3" />
+                          <span class="font-weight-normal">Não se aplica</span>
+                        </label>
+                      </div>
+                      <div class="row m-l-10">
+                        <label class="col-md-12"
+                          >A sujeição dos contratantes às normas da Lei 8.666/93 e às cláusulas contratuais.
+                        </label>
+                        <label class="radio m-l-30">
+                          <input type="radio" name="112" value="1"  />
+                          <span class="font-weight-normal">Sim</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="112" value="2" />
+                          <span class="font-weight-normal">Não</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="112" value="3" />
+                          <span class="font-weight-normal">Não se aplica</span>
+                        </label>
+                      </div>
+
+
+                      <hr />
+
+                  <label class="font-italic font-weight-light m-t-20"
+                      >Art. 55, I a XIII</label
+                    >
+                    <h5 class="col-md-12 m-t-10 font-italic">
+                        Estão presentes nas cláusulas contratuais:
+                    </h5>
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >O objeto e seus elementos característicos.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input  type="radio" name="113" value="1"  />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input  type="radio" name="113" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input  type="radio" name="113" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >O regime de execução ou a forma de fornecimento.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="114" value="1"  />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="114" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="114" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >O preço e as condições de pagamento, os critérios, data-base e periodicidade do reajustamento de preços, os critérios de atualização monetária entre a data do adimplemento das obrigações e a do efetivo pagamento.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="115" value="1"  />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="115" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="115" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>
+                    <div class="row m-l-10">
+                        <label class="col-md-12"
+                          >O número do processo da licitação, da dispensa ou da inexigibilidade.
+                        </label>
+                        <label class="radio m-l-30">
+                          <input type="radio" name="116" value="1"  />
+                          <span class="font-weight-normal">Sim</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="116" value="2" />
+                          <span class="font-weight-normal">Não</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="116" value="3" />
+                          <span class="font-weight-normal">Não se aplica</span>
+                        </label>
+                      </div>
+                      <div class="row m-l-10">
+                        <label class="col-md-12"
+                          >Os prazos de início de etapas de execução, de conclusão, de entrega, de observação e de recebimento definitivo, conforme o caso.
+                        </label>
+                        <label class="radio m-l-30">
+                          <input type="radio" name="117" value="1"  />
+                          <span class="font-weight-normal">Sim</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="117" value="2" />
+                          <span class="font-weight-normal">Não</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="117" value="3" />
+                          <span class="font-weight-normal">Não se aplica</span>
+                        </label>
+                      </div>
+                      <div class="row m-l-10">
+                        <label class="col-md-12"
+                          >O crédito pelo qual correrá a despesa, com a indicação da classificação funcional programática e da categoria econômica.
+                        </label>
+                        <label class="radio m-l-30">
+                          <input type="radio" name="118" value="1"  />
+                          <span class="font-weight-normal">Sim</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="118" value="2" />
+                          <span class="font-weight-normal">Não</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="118" value="3" />
+                          <span class="font-weight-normal">Não se aplica</span>
+                        </label>
+                      </div>
+                      <div class="row m-l-10">
+                        <label class="col-md-12"
+                          >As garantias oferecidas para assegurar sua plena execução, quando exigidas.
+                        </label>
+                        <label class="radio m-l-30">
+                          <input type="radio" name="119" value="1"  />
+                          <span class="font-weight-normal">Sim</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="119" value="2" />
+                          <span class="font-weight-normal">Não</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="119" value="3" />
+                          <span class="font-weight-normal">Não se aplica</span>
+                        </label>
+                      </div>
+                      <div class="row m-l-10">
+                        <label class="col-md-12"
+                          >Os direitos e as responsabilidades das partes, as penalidades cabíveis e os valores das multas.
+                        </label>
+                        <label class="radio m-l-30">
+                          <input type="radio" name="120" value="1"  />
+                          <span class="font-weight-normal">Sim</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="120" value="2" />
+                          <span class="font-weight-normal">Não</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="120" value="3" />
+                          <span class="font-weight-normal">Não se aplica</span>
+                        </label>
+                      </div>
+                      <div class="row m-l-10">
+                        <label class="col-md-12"
+                          >Os casos de rescisão.
+                        </label>
+                        <label class="radio m-l-30">
+                          <input type="radio" name="121" value="1"  />
+                          <span class="font-weight-normal">Sim</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="121" value="2" />
+                          <span class="font-weight-normal">Não</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="121" value="3" />
+                          <span class="font-weight-normal">Não se aplica</span>
+                        </label>
+                      </div>
+                      <div class="row m-l-10">
+                        <label class="col-md-12"
+                          >O reconhecimento dos direitos da Administração, em caso de rescisão administrativa prevista no art. 77 da Lei 8.666/93.
+                        </label>
+                        <label class="radio m-l-30">
+                          <input type="radio" name="122" value="1"  />
+                          <span class="font-weight-normal">Sim</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="122" value="2" />
+                          <span class="font-weight-normal">Não</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="122" value="3" />
+                          <span class="font-weight-normal">Não se aplica</span>
+                        </label>
+                      </div>
+                      
+                      <div class="row m-l-10">
+                        <label class="col-md-12"
+                          >As condições de importação, a data e a taxa de câmbio para conversão, se for o caso.
+                        </label>
+                        <label class="radio m-l-30">
+                          <input type="radio" name="123" value="1"  />
+                          <span class="font-weight-normal">Sim</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="123" value="2" />
+                          <span class="font-weight-normal">Não</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="123" value="3" />
+                          <span class="font-weight-normal">Não se aplica</span>
+                        </label>
+                      </div>
+                      <div class="row m-l-10">
+                        <label class="col-md-12"
+                          >A vinculação ao edital de licitação ou ao termo que a dispensou ou a inexigiu, ao convite e à proposta do licitante vencedor.
+                        </label>
+                        <label class="radio m-l-30">
+                          <input type="radio" name="124" value="1"  />
+                          <span class="font-weight-normal">Sim</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="124" value="2" />
+                          <span class="font-weight-normal">Não</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="124" value="3" />
+                          <span class="font-weight-normal">Não se aplica</span>
+                        </label>
+                      </div>
+                      <div class="row m-l-10">
+                        <label class="col-md-12"
+                          >A legislação aplicável à execução do contrato e especialmente aos casos omissos.
+                        </label>
+                        <label class="radio m-l-30">
+                          <input type="radio" name="125" value="1"  />
+                          <span class="font-weight-normal">Sim</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="125" value="2" />
+                          <span class="font-weight-normal">Não</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="125" value="3" />
+                          <span class="font-weight-normal">Não se aplica</span>
+                        </label>
+                      </div>
+                      <div class="row m-l-10">
+                        <label class="col-md-12"
+                          >A obrigação do contratado de manter, durante toda a execução do contrato, em compatibilidade com as obrigações por ele assumidas, todas as condições de habilitação e qualificação exigidas na licitação.
+                        </label>
+                        <label class="radio m-l-30">
+                          <input type="radio" name="126" value="1"  />
+                          <span class="font-weight-normal">Sim</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="126" value="2" />
+                          <span class="font-weight-normal">Não</span>
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="126" value="3" />
+                          <span class="font-weight-normal">Não se aplica</span>
+                        </label>
+                      </div>
+
+                      <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 57, §3º</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >O contrato não possui prazo de vigência indeterminado.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="127" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="127" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="127" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 57, I a V</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >A duração dos contratos está adstrita à vigência dos respectivos créditos orçamentários ou está encaixada nas exceções.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="128" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="128" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="128" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+
+                  <label class="font-italic font-weight-light"
+                    >Art. 57, §1º</label
+                  >
+                  <div class="row m-l-10">
+                    <label class="col-md-12" 
+                      >Os prazos de início de etapas de execução, de conclusão e de entrega foram prorrogados.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input id="57-sim" type="radio" name="129" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input id="57-nao" type="radio" name="129" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input id="57-nao2" type="radio" name="129" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <div id="57-q" class="disp">
+                    <h5 class="col-md-12 m-t-10 font-italic">
+                      Se sim:
+                    </h5>
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >Foram mantidas as demais cláusulas do contrato.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="130" value="1"  />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="130" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="130" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >Foi assegurada a manutenção de seu equilíbrio econômico-financeiro.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="131" value="1"  />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="131" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="131" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >Se enquadrou nos motivos descritos nos incisos I a VI, sendo devidamente autuados no processo.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="132" value="1"  />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="132" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="132" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>
+                    </div>
+
+                    <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 57, §2º</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >Houve prorrogação de prazo, foi justificada por escrito e previamente autorizada pela autoridade competente para celebrar o contrato.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="133" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="133" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="133" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 55, §2º</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >Foi declarado competente o foro da sede da Administração para dirimir qualquer questão contratual, salvo o disposto no §6º do art. 32 da Lei 8.666/93.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="134" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="134" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="134" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 54, §1º</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >Os contratos estabeleceram com clareza e precisão as condições para sua execução, expressas em cláusulas definindo os direitos, obrigações e responsabilidades das partes, em conformidade com os termos da licitação e da proposta a que se vincularam.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="135" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="135" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="135" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 66</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >O contrato foi executado fielmente pelas partes, de acordo com as cláusulas avençadas e as normas da lei.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="136" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="136" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="136" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 71, caput</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >O contratado é responsável pelos encargos trabalhistas, previdenciários, fiscais e comerciais resultantes da execução do contrato.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="137" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="137" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="137" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 71, §2º</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >Foram apresentados os recolhimentos, já que a Administração Pública responde solidariamente com o contratado pelos encargos previdenciários resultantes da execução do contrato, nos termos do art. 31 da Lei nº 8.212, de 24 de julho de 1991.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="138" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="138" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="138" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 5º, caput</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >No pagamento das obrigações foi respeitada a estrita ordem cronológica das datas de suas exigibilidades, salvo quando presentes relevantes razões de interesse público e mediante prévia justificativa da autoridade competente, devidamente publicada.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="139" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="139" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="139" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 5º, §3º</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >Os pagamentos correspondentes a despesas cujos valores não ultrapassam o limite de que trata o inciso II do art. 24 da Lei 8.666/93, sem prejuízo do que dispõe seu parágrafo único, foram efetuados no prazo de até 5 (cinco) dias úteis, contados da apresentação da fatura.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="140" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="140" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="140" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 67</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >A execução do contrato foi acompanhada e fiscalizada por um representante da Administração especialmente designado, sendo permitida a contratação de terceiros para assisti-lo e subsidiá-lo de informações pertinentes a essa atribuição.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="141" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="141" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="141" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 67, §1º</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >O representante da Administração tomou nota em registro próprio de todas as ocorrências relacionadas com a execução do contrato, determinando o que foi necessário à regularização das faltas ou defeitos observados.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="142" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="142" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="142" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 67, §2º</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >As decisões e providências que ultrapassaram a competência do representante foram solicitadas a seus superiores em tempo hábil para a adoção das medidas convenientes.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="143" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="143" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="143" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+
+                  <label class="font-italic font-weight-light"
+                    >Art. 69</label
+                  >
+                  <div class="row m-l-10">
+                    <label class="col-md-12" 
+                      >Foram verificados vícios, defeitos ou incorreções no objeto do contrato, resultantes da execução ou de materiais empregados.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input id="69-sim" type="radio" name="144" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input id="69-nao" type="radio" name="144" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input id="69-nao2" type="radio" name="144" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <div id="69-q" class="disp">
+                    <h5 class="col-md-12 m-t-10 font-italic">
+                      Se sim:
+                    </h5>
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >O contratado foi obrigado a reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte desse objeto.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="145" value="1"  />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="145" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="145" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>                    
+                    </div>
+
+                    <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 73</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >O recebimento do objeto esteve de acordo com os incisos I e II, §§1º, 2º e 3º do art. 73 da Lei 8.666/93.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="146" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="146" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="146" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 74</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >O recebimento provisório foi dispensado em conformidade com o disposto nos incisos, I, II e III do art. 74 da Lei 8.666/93.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="147" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="147" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="147" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+
+                  <label class="font-italic font-weight-light"
+                    >Art. 65, I e II</label
+                  >
+                  <div class="row m-l-10">
+                    <label class="col-md-12" 
+                      >Houve alteração de contrato.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input id="65-sim" type="radio" name="148" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input id="65-nao" type="radio" name="148" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input id="65-nao2" type="radio" name="148" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <div id="65-q" class="disp">
+                    <h5 class="col-md-12 m-t-10 font-italic">
+                      Se sim:
+                    </h5>
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >Unilateralmente pela Administração por modificação do projeto ou das especificações, para melhor adequação técnica aos seus objetivos.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="149" value="1"  />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="149" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="149" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>
+                    
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >Unilateralmente pela Administração por modificação do valor contratual em decorrência de acréscimo ou diminuição quantitativa de seu objeto, nos limites permitidos pela Lei 8.666/93.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="150" value="1"  />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="150" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="150" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>          
+
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >Por acordo das partes por ser conveniente a substituição da garantia de execução.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="151" value="1"  />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="151" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="151" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>          
+
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >Por acordo das partes pois se fez necessária a modificação do regime de execução da obra ou serviço, bem como do modo de fornecimento, em face de verificação técnica da inaplicabilidade dos termos contratuais originários.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="152" value="1"  />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="152" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="152" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>          
+
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >Por acordo entre as partes pois se fez necessária a modificação da forma de pagamento, por imposição de circunstâncias supervenientes, mantido o valor inicial atualizado, vedada a antecipação do pagamento, com relação ao cronograma financeiro fixado, sem a correspondente contraprestação de fornecimento de bens ou execução de obra ou serviço.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="153" value="1"  />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="153" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="153" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>      
+                    <div class="row m-l-10">
+                      <label class="col-md-12"
+                        >Por acordo entre as partes para restabelecer a relação que pactuaram inicialmente entre os encargos do contratado e a retribuição da administração para a justa remuneração da obra, serviço ou fornecimento, objetivando a manutenção do equilíbrio econômico-financeiro inicial do contrato, na hipótese de sobrevirem fatos imprevisíveis, ou previsíveis porém de consequências incalculáveis, retardadores ou impeditivos da execução do ajustado, ou, ainda, em caso de força maior, caso fortuito ou fato do príncipe, configurando álea econômica extraordinária e extracontratual.
+                      </label>
+                      <label class="radio m-l-30">
+                        <input type="radio" name="154" value="1"  />
+                        <span class="font-weight-normal">Sim</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="154" value="2" />
+                        <span class="font-weight-normal">Não</span>
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="154" value="3" />
+                        <span class="font-weight-normal">Não se aplica</span>
+                      </label>
+                    </div>    
+                    </div>
+
+                    <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 65, §2º</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >Os acréscimos ou supressões que se fizeram nas obras, serviços ou compras, correspondem até 25% (vinte e cinco por cento) do valor inicial atualizado do contrato, e, caso particular de reforma de edifício ou de equipamento, até o limite de 50% (cinquenta por cento) para os seus acréscimos.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="155" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="155" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="155" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 65, §2º, II</label
+                  >
+                  <div class="row m-b-40 m-l-10">
+                    <label class="col-md-12"
+                      >Nenhum acréscimo ou supressão excedeu os limites estabelecidos, salvo as supressões resultantes de acordo celebrado entre os contratantes.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="156" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="156" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="156" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer text-center footer-magic"></footer>
+      </div>
+    </div>
+
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../dist/js/app-style-switcher.js"></script>
+    <!--Wave Effects -->
+    <script src="../dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../dist/js/custom.js"></script>
+    <!--This page JavaScript -->
+    <!--chartis chart-->
+    <script src="../assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="../dist/js/pages/dashboards/dashboard1.js"></script>
+    <script src="../dist/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </body>
+</html>

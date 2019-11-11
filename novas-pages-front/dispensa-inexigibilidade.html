@@ -1,0 +1,940 @@
+<html dir="ltr" lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/images/favicon.ico"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>
+      Auditoria Online
+    </title>
+    <link
+      href="../assets/libs/chartist/dist/chartist.min.css"
+      rel="stylesheet"
+    />
+    <link href="../dist/css/style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="preloader">
+      <div class="lds-ripple">
+        <div class="lds-pos"></div>
+        <div class="lds-pos"></div>
+      </div>
+    </div>
+    <div
+      id="main-wrapper"
+      data-layout="vertical"
+      data-navbarbg="skin5"
+      data-sidebartype="full"
+      data-sidebar-position="absolute"
+      data-header-position="absolute"
+      data-boxed-layout="full"
+    >
+      <header class="topbar" data-navbarbg="skin5">
+        <nav
+          class="navbar top-navbar navbar-expand-md navbar-dark"
+          style="background: #46b8ab;"
+        >
+          <div
+            class="navbar-header"
+            data-logobg="skin5"
+            style="background: #46b8ab;"
+          >
+            <a class="navbar-brand" href="index.html">
+              <b class="logo-icon"> </b>
+              <span class="logo-text">
+                <h1
+                  style="font-family: 'Josefin Sans', sans-serif; padding: 5px; font-size: 20px; margin: 10px;"
+                >
+                  Auditoria Online
+                </h1>
+              </span>
+            </a>
+            <a
+              class="nav-toggler waves-effect waves-light d-block d-md-none"
+              href="javascript:void(0)"
+              ><i class="ti-menu ti-close"></i
+            ></a>
+          </div>
+          <div
+            class="navbar-collapse collapse"
+            id="navbarSupportedContent"
+            data-navbarbg="skin5"
+            style="background: #46b8ab;"
+          >
+            <ul class="navbar-nav float-right"></ul>
+          </div>
+        </nav>
+      </header>
+      <aside class="left-sidebar" data-sidebarbg="skin6">
+        <div class="scroll-sidebar">
+          <nav class="sidebar-nav">
+            <ul id="sidebarnav">
+              <li>
+                <div class="user-profile d-flex no-block dropdown m-t-20">
+                  <div class="user-content hide-menu m-l-10">
+                    <a
+                      href="javascript:void(0)"
+                      class=""
+                      id="Userdd"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <h5 class="m-b-0 user-name font-medium">
+                        Joyce contabeis
+                      </h5>
+                      <span class="op-5 user-email">joyce@gmail.com</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="p-15 m-t-10">
+                <a
+                  href="create.html"
+                  class="btn btn-block create-btn text-white no-block d-flex align-items-center btn-cor"
+                  ><i class="far fa-edit"></i>
+                  <span class="hide-menu m-l-5">Nova Auditoria</span>
+                </a>
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="index.html"
+                  aria-expanded="false"
+                  ><i class="fa fa-bars" aria-hidden="true"></i
+                  ><span class="hide-menu">Menu</span></a
+                >
+              </li>
+
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="../index.html"
+                  aria-expanded="false"
+                  ><i class="fa fa-power-off "></i
+                  ><span class="hide-menu">Sair</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+      <div class="page-wrapper">
+        <div class="page-breadcrumb">
+          <div class="row align-items-center">
+            <div class="col-5">
+              <h4 class="page-title">DISPENSA-INEXIGIBILIDADE</h4>
+              <div class="d-flex align-items-center"></div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="col-lg-8 col-xlg-9 col-md-7">
+            <div class="card">
+              <div class="card-body">
+                <form class="form-horizontal form-material">
+                  <div class="titulo-main" class="col-md-12">
+                    <label
+                      style="font-family: 'Oswald', sans-serif; font-size: 1.5rem; margin-left: 40%; margin-right: auto;"
+                      >Lei 8.666/93</label
+                    >
+                  </div>
+
+                  <label class="font-italic font-weight-light"
+                    >Art. 24, I a XXXV</label
+                  >
+                  <h5 class="col-md-12 m-t-10 font-italic">
+                    O objeto do processo está vinculado a:
+                </h5>
+                <div class="row m-l-10">
+                  <label class="col-md-12"
+                    >Obras e serviços de engenharia de valor até 10% (dez por cento) do limite previsto na alínea "a", do inciso I do art. 23 da Lei 8.666/93, não se referindo a parcelas de uma mesma obra ou serviço ou ainda para obras e serviços da mesma natureza e no mesmo local que poderiam ser realizadas conjunta e concomitantemente.
+                  </label>
+                  <label class="radio m-l-30">
+                    <input  type="radio" name="200" value="1"  />
+                    <span class="font-weight-normal">Sim</span>
+                  </label>
+                  <label class="radio">
+                    <input  type="radio" name="200" value="2" />
+                    <span class="font-weight-normal">Não</span>
+                  </label>
+                  <label class="radio">
+                    <input  type="radio" name="200" value="3" />
+                    <span class="font-weight-normal">Não se aplica</span>
+                  </label>
+                </div>
+                <div class="row m-l-10">
+                  <label class="col-md-12"
+                    >Outros serviços e compras de valor até 10% (dez por cento) do limite previsto na alínea "a", do inciso II do art. 23 da Lei 8.666/93 e para alienações, nos casos previstos na mesma Lei, não se referindo a parcelas de um mesmo serviço, compra ou alienação de maior vulto que possa ser realizada de uma só vez.
+                  </label>
+                  <label class="radio m-l-30">
+                    <input type="radio" name="201" value="1"  />
+                    <span class="font-weight-normal">Sim</span>
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="201" value="2" />
+                    <span class="font-weight-normal">Não</span>
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="201" value="3" />
+                    <span class="font-weight-normal">Não se aplica</span>
+                  </label>
+                </div>
+                <div class="row m-l-10">
+                  <label class="col-md-12"
+                    >Casos de guerra ou grave perturbação da ordem.
+                  </label>
+                  <label class="radio m-l-30">
+                    <input type="radio" name="2012" value="1"  />
+                    <span class="font-weight-normal">Sim</span>
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="2012" value="2" />
+                    <span class="font-weight-normal">Não</span>
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="2012" value="3" />
+                    <span class="font-weight-normal">Não se aplica</span>
+                  </label>
+                </div>
+                <div class="row m-l-10">
+                  <label class="col-md-12"
+                    >Casos de emergência ou de calamidade pública, caracterizada urgência de atendimento de situação que pode ocasionar prejuízo ou comprometer a segurança de pessoas, obras, serviços, equipamentos e outros bens, públicos ou particulares, e somente para os bens necessários ao atendimento da situação emergencial ou calamitosa e parcelas de obras e serviços a serem concluídas no prazo máximo de 180 (cento e oitenta) dias consecutivos e ininterruptos, contados da ocorrência da emergência ou calamidade, vedada a prorrogação dos respectivos contratos.
+                  </label>
+                  <label class="radio m-l-30">
+                    <input type="radio" name="202" value="1"  />
+                    <span class="font-weight-normal">Sim</span>
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="202" value="2" />
+                    <span class="font-weight-normal">Não</span>
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="202" value="3" />
+                    <span class="font-weight-normal">Não se aplica</span>
+                  </label>
+                </div>
+                <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Casos em que não acudam interessados à licitação anterior e esta, justificadamente, não pôde ser repetida sem prejuízo para a Administração, mantidas, neste caso, todas as condições preestabelecidas.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="203" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="203" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="203" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Intervenção da União no domínio econômico para regular preços ou normalizar o abastecimento.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="204" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="204" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="204" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Propostas apresentadas que consignam preços manifestamente superiores aos praticados no mercado nacional, ou são incompatíveis com os fixados pelos órgãos oficiais competentes, casos em que, observado o parágrafo único do art. 48 da Lei 8.666/93.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="205" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="205" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="205" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Possibilidade de comprometimento da segurança nacional, nos casos estabelecidos em decreto do Presidente da República, ouvido o Conselho de Defesa Nacional.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="206" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="206" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="206" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Compra ou locação de imóvel destinado ao atendimento das finalidades precípuas da administração, cujas necessidades de instalação e localização condicionam a sua escolha e o preço é compatível com o valor de mercado, segundo avaliação prévia.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="207" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="207" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="207" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Contratação de remanescente de obra, serviço ou fornecimento, em consequência de rescisão contratual, atendida a ordem de classificação da licitação anterior e aceitas as mesmas condições oferecidas pelo licitante vencedor, inclusive quanto ao preço, devidamente corrigido.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="208" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="208" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="208" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Compras de hortifrutigranjeiros, pão e outros gêneros perecíveis, no tempo necessário para a realização dos processos licitatórios correspondentes, realizadas diretamente com base no preço do dia.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="209" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="209" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="209" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Contratação de instituição brasileira incumbida regimental ou estatutariamente da pesquisa, do ensino ou do desenvolvimento institucional, ou de instituição dedicada à recuperação social do preso, com inquestionável reputação ético-profissional da contratada e sem fins lucrativos.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="210" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="210" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="210" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Aquisição de bens ou serviços nos termos de acordo internacional específico aprovado pelo Congresso Nacional, com condições ofertadas manifestamente vantajosas para o Poder Público.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="211" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="211" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="211" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Aquisição ou restauração de obras de arte e objetos históricos, de autenticidade certificada, compatíveis ou inerentes às finalidades do órgão ou entidade
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="212" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="212" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="212" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Impressão dos diários oficiais, de formulários padronizados de uso da administração, e de edições técnicas oficiais, bem como prestação de serviços de informática a pessoa jurídica de direito público interno, por órgãos ou entidades que integram a Administração Pública, criados para esse fim específico.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="213" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="213" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="213" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Aquisição de componentes ou peças de origem nacional ou estrangeira, necessários à manutenção de equipamentos durante período de garantia técnica, junto ao fornecedor original desses equipamentos, com condição de exclusividade indispensável para a vigência da garantia.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="214" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="214" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="214" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Compras ou contratações de serviços para o abastecimento de navios, embarcações, unidades aéreas ou tropas e seus meios de deslocamento em estada eventual de curta duração em portos, aeroportos ou localidades diferentes de suas sedes, por motivo de movimentação operacional ou de adestramento, a exiguidade dos prazos legais pode comprometer a normalidade e os propósitos das operações e  seu valor não excede ao limite previsto na alínea "a" do inciso II do art. 23 da Lei 8.666/93.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="215" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="215" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="216" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Compras de material de uso pelas Forças Armadas, com exceção de materiais de uso pessoal e administrativo, com necessidade de manter a padronização requerida pela estrutura de apoio logístico dos meios navais, aéreos e terrestres, mediante parecer de comissão instituída por decreto.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="217" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="217" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="217" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Contratação de associação de portadores de deficiência física, sem fins lucrativos e de comprovada idoneidade, por órgãos ou entidades da Administração Pública, para a prestação de serviços ou fornecimento de mão-de-obra, com preço contratado compatível com o praticado no mercado.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="218" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="218" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="218" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Aquisição ou contratação de produto para pesquisa e desenvolvimento, limitada, no caso de obras e serviços de engenharia, a 20% (vinte por cento) do valor de que trata a alínea “b” do inciso I do caput do art. 23 da Lei 8.666/93.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="219" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="219" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="219" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Contratação de fornecimento ou suprimento de energia elétrica e gás natural com concessionário, permissionário ou autorizado, segundo as normas da legislação específica.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="220" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="220" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="220" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Contratação realizada por empresa pública ou sociedade de economia mista com suas subsidiárias e controladas, para a aquisição ou alienação de bens, prestação ou obtenção de serviços, com preço contratado compatível com o praticado no mercado.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="221" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="221" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="221" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Celebração de contratos de prestação de serviços com as organizações sociais, qualificadas no âmbito das respectivas esferas de governo, para atividades contempladas no contrato de gestão.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="222" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="222" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="222" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Contratação realizada por Instituição Científica e Tecnológica - ICT ou por agência de fomento para a transferência de tecnologia e para o licenciamento de direito de uso ou de exploração de criação protegida.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="223" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="223" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="223" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Celebração de contrato de programa com ente da Federação ou com entidade de sua administração indireta, para a prestação de serviços públicos de forma associada nos termos do autorizado em contrato de consórcio público ou em convênio de cooperação.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="224" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="224" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="224" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Contratação de coleta, processamento e comercialização de resíduos sólidos urbanos recicláveis ou reutilizáveis, em áreas com sistema de coleta seletiva de lixo, efetuados por associações ou cooperativas formadas exclusivamente por pessoas físicas de baixa renda reconhecidas pelo poder público como catadores de materiais recicláveis, com o uso de equipamentos compatíveis com as normas técnicas, ambientais e de saúde pública.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="225" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="225" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="225" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Fornecimento de bens e serviços, produzidos ou prestados no País, que envolvem, cumulativamente, alta complexidade tecnológica e defesa nacional, mediante parecer de comissão especialmente designada pela autoridade máxima do órgão.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="226" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="226" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="226" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Aquisição de bens e contratação de serviços para atender aos contingentes militares das Forças Singulares brasileiras empregadas em operações de paz no exterior, necessariamente justificadas quanto ao preço e à escolha do fornecedor ou executante e ratificadas pelo Comandante da Força.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="227" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="227" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="227" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Contratação de instituição ou organização, pública ou privada, com ou sem fins lucrativos, para a prestação de serviços de assistência técnica e extensão rural no âmbito do Programa Nacional de Assistência Técnica e Extensão Rural na Agricultura Familiar e na Reforma Agrária, instituído por lei federal.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="228" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="228" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="228" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Contratações visando ao cumprimento do disposto nos arts. 3º, 4º, 5º e 20 da Lei 10.973/04, observados os princípios gerais de contratação dela constantes.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="229" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="229" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="229" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Contratação com transferência de tecnologia de produtos estratégicos para o Sistema Único de Saúde - SUS, no âmbito da Lei 8.080/90, conforme elencados em ato da direção nacional do SUS, inclusive por ocasião da aquisição destes produtos durante as etapas de absorção tecnológica.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="230" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="230" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="230" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Contratação de entidades privadas sem fins lucrativos, para a implementação de cisternas ou outras tecnologias sociais de acesso à água para consumo humano e produção de alimentos, para beneficiar as famílias rurais de baixa renda atingidas pela seca ou falta regular de água.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="231" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="231" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="231" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Aquisição por pessoa jurídica de direito público interno de insumos estratégicos para a saúde produzidos ou distribuídos por fundação que, regimental ou estatutariamente, com finalidade de apoiar órgão da administração pública direta, sua autarquia ou fundação em projetos de ensino, pesquisa, extensão, desenvolvimento institucional, científico e tecnológico e estímulo à inovação, inclusive na gestão administrativa e financeira necessária à execução desses projetos, ou em parcerias que envolvem transferência de tecnologia de produtos estratégicos para o Sistema Único de Saúde – SUS, nos termos do inciso XXXII do art. 24 da Lei 8.666/93, e que tenha sido criada para esse fim específico em data anterior à vigência dessa Lei, com preço contratado compatível com o praticado no mercado.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="232" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="232" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="232" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Construção, ampliação, reforma e aprimoramento de estabelecimentos penais, configurada situação de grave e iminente risco à segurança pública.
+                    </label>
+                    <label class="radio m-l-30">
+                      <input type="radio" name="233" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="233" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="223" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 24, X</label
+                  >
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Sendo um caso de locação de imóvel, foi realizada avaliação prévia do imóvel selecionado. </label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="234" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="234" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="234" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 26, I a IV</label
+                  >
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Foi caracterizada situação emergencial, calamitosa ou de grave e iminente risco à segurança pública que justifique a dispensa.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="235" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="235" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="235" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Foi determinada a razão da escolha do fornecedor ou executante.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="236" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="236" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="236" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Houve justificativa do preço.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="237" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="237" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="237" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Há documento de aprovação dos projetos de pesquisa aos quais os bens serão alocados.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="238" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="238" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="238" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 5º, V</label
+                  >
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Houve ampla pesquisa de mercado no âmbito dos órgãos e entidades da Administração Pública.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="239" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="239" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="239" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <hr />
+                  <label class="font-italic font-weight-light"
+                    >Art. 26, caput</label
+                  >
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Consta Ato de dispensa assinado e datado pelo Ordenador de Despesas.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="240" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="240" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="240" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                  <div class="row m-l-10">
+                    <label class="col-md-12"
+                      >Foi publicado em imprensa oficial, sendo esta a condição para eficácia dos atos.</label
+                    >
+                    <label class="radio m-l-30">
+                      <input type="radio" name="241" value="1"  />
+                      <span class="font-weight-normal">Sim</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="241" value="2" />
+                      <span class="font-weight-normal">Não</span>
+                    </label>
+                    <label class="radio">
+                      <input type="radio" name="241" value="3" />
+                      <span class="font-weight-normal">Não se aplica</span>
+                    </label>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer text-center footer-magic"></footer>
+      </div>
+    </div>
+
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../dist/js/app-style-switcher.js"></script>
+    <!--Wave Effects -->
+    <script src="../dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../dist/js/custom.js"></script>
+    <!--This page JavaScript -->
+    <!--chartis chart-->
+    <script src="../assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="../dist/js/pages/dashboards/dashboard1.js"></script>
+    <script src="../dist/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </body>
+</html>
